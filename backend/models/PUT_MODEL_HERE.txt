@@ -1,0 +1,5 @@
+car_damage_yolo11n_improved.pt in this folder is the YOLO11n model trained in
+notebook/DAMAGEPREDICTION.ipynb (CarDD dataset, 10 + 20 epochs; test mAP@50 67%).
+
+To use different weights, replace the file or set MODEL_PATH before starting
+the backend.

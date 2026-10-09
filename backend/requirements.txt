@@ -1,0 +1,6 @@
+# Tested with Python 3.10.0 and 3.13, and the versions in brackets.
+fastapi>=0.115            # (0.143.0)
+uvicorn>=0.30             # (0.54.0)
+python-multipart>=0.0.9   # (0.0.32) file uploads
+pillow>=10.0              # (12.3.0)
+ultralytics>=8.3          # (8.4.174, same as the notebook) installs PyTorch

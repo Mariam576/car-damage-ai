@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Node
+node_modules/
+*.tsbuildinfo
+
+# Created when the app runs: the SQLite database (rebuilt from seed_data.py
+# on first start), uploaded photos, and setup logs
+backend/data/
+backend/setup-log.txt
+backend/startup-error.txt
+
+# Local helper for publishing this folder
+push-to-github.bat
